@@ -1,0 +1,63 @@
+:root {
+    --main-background-color: #d5e1ef;
+    --card-background-color: #fff;
+    --main-text-color: #1f314f;
+    --main-text-color-light: #7d889e;
+    --font-family: Outfit, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+section {
+    width: 20rem;
+    background-color: var(--card-background-color);
+    margin: 0 auto;
+    border-radius: 1.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.qr-code {
+    border-radius: 0.5rem;
+    padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.content {
+    padding: 0 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+p {
+    color: var(--main-text-color-light);
+    padding: 1rem 1rem 0 1rem;
+    font-size: 0.9375rem;
+}
